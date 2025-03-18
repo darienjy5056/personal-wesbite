@@ -4,39 +4,55 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Darien Yang - Portfolio</title>
-  <!-- Using Poppins for a modern, friendly look -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    main {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1 class="main-title">Darien Yang</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#interests">Interests</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#endorsements">Endorsements</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <nav>
+    <!-- Name at Top -->
+    <div class="nav-title">Darien Yang</div>
+    
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#endorsements">Endorsements</a></li>
+    </ul>
+  </nav>
+
   <main>
-    <!-- About Section as the introduction -->
+    <!-- About Section -->
     <section id="about">
       <div class="container">
-        <h2>About Me</h2>
-        <p>
-          Hi, I'm Darien Yang. I am passionate about automotive engineering, particularly in motorsports and hypercar development. My journey started with a deep interest in Formula 1 and the cutting-edge technology used in performance vehicles. I love exploring aerodynamics, powertrains, and computational fluid dynamics (CFD) to push the limits of engineering.
-        </p>
+        <div class="text">
+          <h2>About Me</h2>
+          <p>
+            Hi, I'm Darien Yang. I am passionate about automotive engineering, 
+            particularly in motorsports and hypercar development. My journey started with a deep 
+            interest in Formula 1 and the cutting-edge technology used in performance vehicles. 
+            I love exploring aerodynamics, powertrains, and computational fluid dynamics (CFD) 
+            to push the limits of engineering.
+          </p>
+        </div>
+        <img src="IMG_0741.jpeg" alt="Darien Yang">
       </div>
     </section>
+
     <!-- Interests Section -->
     <section id="interests">
       <div class="container">
         <h2>Interests &amp; Hobbies</h2>
         <p>
-          My interests extend beyond just engineering. I enjoy debating, public speaking, and investing. Whether I’m designing a science fair project or analyzing investments, I’m always looking for ways to combine creativity with technical expertise.
+          My interests extend beyond just engineering. I enjoy debating, public speaking, 
+          and investing. Whether I’m designing a science fair project or analyzing investments, 
+          I’m always looking for ways to combine creativity with technical expertise.
         </p>
         <ul>
           <li>Formula 1 &amp; Motorsport Engineering</li>
@@ -47,6 +63,7 @@
         </ul>
       </div>
     </section>
+
     <!-- Projects Section -->
     <section id="projects">
       <div class="container">
@@ -56,43 +73,46 @@
             <img src="project1-thumbnail.jpg" alt="CFD Technology in F1">
             <h3>CFD Technology in F1</h3>
             <p>
-              An article exploring how computational fluid dynamics (CFD) is shaping the future of Formula 1 aerodynamics, with a focus on ground effect optimization and wind tunnel testing.
+              An article exploring how computational fluid dynamics (CFD) 
+              is shaping the future of Formula 1 aerodynamics, 
+              with a focus on ground effect optimization and wind tunnel testing.
             </p>
-            <a href="#">Read More</a>
           </article>
           <article class="project">
             <img src="project2-thumbnail.jpg" alt="Solar-Powered RC Boat">
             <h3>Solar-Powered RC Boat</h3>
             <p>
-              A small-scale prototype of an RC boat powered by solar energy, designed to explore sustainable transportation solutions in marine engineering.
+              A small-scale prototype of an RC boat powered by solar energy, 
+              designed to explore sustainable transportation solutions in marine engineering.
             </p>
-            <a href="#">View Project</a>
           </article>
           <article class="project">
             <img src="project3-thumbnail.jpg" alt="Soil Moisture Sensor">
             <h3>Soil Moisture Sensor with Arduino</h3>
             <p>
-              A smart irrigation system using an Arduino-based soil moisture sensor to optimize water usage and improve agricultural efficiency.
+              A smart irrigation system using an Arduino-based soil moisture sensor 
+              to optimize water usage and improve agricultural efficiency.
             </p>
-            <a href="#">View Project</a>
           </article>
           <article class="project">
             <img src="project4-thumbnail.jpg" alt="Wharton Investment Competition">
             <h3>Wharton Investment Competition</h3>
             <p>
-              Developed a unique trading philosophy called the 'Ouroboros Strategy,' focusing on investing in integrated ecosystems for long-term financial growth.
+              Developed a unique trading philosophy called the 'Ouroboros Strategy,' 
+              focusing on investing in integrated ecosystems for long-term financial growth.
             </p>
-            <a href="#">Learn More</a>
           </article>
         </div>
       </div>
     </section>
+
     <!-- Endorsements Section -->
     <section id="endorsements">
       <div class="container">
         <h2>Endorsements</h2>
         <p>
-          I’ve had the opportunity to work on projects that bring together engineering, finance, and innovation:
+          I’ve had the opportunity to work on projects that bring together 
+          engineering, finance, and innovation:
         </p>
         <div class="endorsements">
           <img src="company-logo1.png" alt="TKS (The Knowledge Society)">
@@ -101,16 +121,21 @@
         </div>
       </div>
     </section>
+
+    <!-- Contact Section at Bottom of Main Content -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Email: 
+          <a href="mailto:darienjy5056@gmail.com">darienjy5056@gmail.com</a>
+        </p>
+        <p>
+          <a href="https://www.linkedin.com/in/darien-yang-04b78b2a5/" target="_blank">
+            LinkedIn
+          </a>
+        </p>
+      </div>
+    </section>
   </main>
-  <!-- Footer / Contact -->
-  <footer id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>
-        Feel free to reach out at <a href="mailto:darien.yang@example.com">darien.yang@example.com</a>—I’d love to connect.
-      </p>
-      <p>&copy; 2025 Darien Yang. All rights reserved.</p>
-    </div>
-  </footer>
 </body>
 </html>
