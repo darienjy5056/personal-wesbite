@@ -1,0 +1,203 @@
+/* styles.css */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #111; /* Dark background */
+    color: #eee; /* Light text for contrast */
+    line-height: 1.6;
+}
+
+/* Container for Centering Content */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Main Title */
+.main-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ff1e00; /* Ferrari red */
+    margin-top: 1rem;
+}
+
+/* Header & Navigation */
+header {
+    background: #000; /* Black header */
+    border-bottom: 2px solid #ff1e00; /* Red underline */
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #eee;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s ease;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background: #ff1e00;
+    border-radius: 4px;
+    color: #fff;
+}
+
+/* Section Styling */
+section {
+    padding: 4rem 1rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 1rem;
+    color: #ff1e00;
+}
+
+section p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+/* Interests Section */
+#interests ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+#interests li {
+    background: #222; /* Dark grey */
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #ff1e00; /* Red text */
+    border: 1px solid #ff1e00;
+}
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project {
+    background: #222; /* Darker background */
+    border: 1px solid #ff1e00;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(255, 30, 0, 0.5);
+}
+
+.project img {
+    width: 100%;
+    display: block;
+}
+
+.project h3 {
+    font-size: 1.25rem;
+    margin: 1rem;
+    font-weight: 600;
+    text-align: left;
+    color: #ff1e00;
+}
+
+.project p {
+    font-size: 0.95rem;
+    margin: 0 1rem 1rem;
+    text-align: left;
+    color: #ddd;
+}
+
+.project a {
+    display: block;
+    margin: 0 1rem 1rem;
+    text-decoration: none;
+    color: #ff1e00;
+    font-weight: 500;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Endorsements Section */
+.endorsements {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+.endorsements img {
+    max-width: 120px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.endorsements img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background: #000;
+    border-top: 2px solid #ff1e00;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #eee;
+}
+
+footer h2 {
+    text-align: left;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    color: #ff1e00;
+}
+
+footer a {
+    color: #ff1e00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
