@@ -11,14 +11,24 @@
       padding-left: 2rem;
       padding-right: 2rem;
     }
+    nav {
+      font-size: 0.85rem;
+    }
+    .nav-links a {
+      padding: 0.75rem;
+    }
+    #about img {
+      width: 250px;
+      height: auto;
+      border: 2px solid #000;
+      border-radius: 4px;
+      object-fit: cover;
+    }
   </style>
 </head>
 <body>
   <nav>
-    <!-- Name at Top -->
     <div class="nav-title">Darien Yang</div>
-    
-    <!-- Navigation Links -->
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#interests">Interests</a></li>
@@ -26,22 +36,38 @@
       <li><a href="#endorsements">Endorsements</a></li>
     </ul>
   </nav>
+  
 
   <main>
-    <!-- About Section -->
+    <!-- About Section with Hero Layout -->
     <section id="about">
-      <div class="container">
+      <div class="container about-hero">
+        <div class="hero-top">
+          <img src="IMG_0741.jpeg" alt="Darien Yang">
+          <div class="hero-text">
+            <h1>Darien Yang</h1>
+            <p>
+              16/yo<br>
+              Vancouver, Canada<br>
+              TKS & UTP Student<br>
+              Motorsport Engineering<br>
+              Aerodynamics<br>
+              Robotics
+            </p>            
+          </div>
+        </div>
         <div class="text">
           <h2>About Me</h2>
           <p>
-            Hi, I'm Darien Yang. I am passionate about automotive engineering, 
-            particularly in motorsports and hypercar development. My journey started with a deep 
-            interest in Formula 1 and the cutting-edge technology used in performance vehicles. 
-            I love exploring aerodynamics, powertrains, and computational fluid dynamics (CFD) 
-            to push the limits of engineering.
+            Hi! I'm Darien, welcome to my personal website!<br><br>
+
+            I attend UBC's University Transition Program, a specialized program condensing high school into just 2 years, and TKS, a prestigious program with a 10–15% acceptance rate, where my focus is on motorsport engineering—specifically aerodynamics and CFD technology. I conduct projects around researching the application of CFDs in F1 and have built models for fluid dynamics testing.<br><br>
+
+            I co-founded the GritLabs public speaking and debate program, and I'm a longtime member of my local Gavel Club, where I serve as Vice President of Membership.<br><br>
+
+            Outside of all of that, I love trivia and history.
           </p>
         </div>
-        <img src="IMG_0741.jpeg" alt="Darien Yang">
       </div>
     </section>
 
@@ -50,16 +76,15 @@
       <div class="container">
         <h2>Interests &amp; Hobbies</h2>
         <p>
-          My interests extend beyond just engineering. I enjoy debating, public speaking, 
-          and investing. Whether I’m designing a science fair project or analyzing investments, 
-          I’m always looking for ways to combine creativity with technical expertise.
+          I love motorsports, automotive engineering. I've been watching Formula 1 since I was a kid (Mercedes fan), I also love WRC (Rovanpera is my goat). I find that almost everything I do all comes back
+          to engineering. 
         </p>
         <ul>
           <li>Formula 1 &amp; Motorsport Engineering</li>
           <li>Automotive Technology &amp; Hypercars</li>
-          <li>Public Speaking &amp; Debate</li>
-          <li>Investment Analysis &amp; Strategy</li>
-          <li>Innovative Engineering Projects</li>
+          <li>Aerodynamics</li>
+          <li>Computational Fluid Dynamics</li>
+          <li>Robotics</li>
         </ul>
       </div>
     </section>
@@ -70,36 +95,66 @@
         <h2>Projects</h2>
         <div class="projects-grid">
           <article class="project">
-            <img src="project1-thumbnail.jpg" alt="CFD Technology in F1">
-            <h3>CFD Technology in F1</h3>
+            <h3>"Will CFD Technology Shape the Next Era of F1 Aerodynamics?"</h3>
             <p>
               An article exploring how computational fluid dynamics (CFD) 
               is shaping the future of Formula 1 aerodynamics, 
-              with a focus on ground effect optimization and wind tunnel testing.
+              with a focus on comparing modern CFD models with wind tunnel testing. Discusses the 
+              challenges CFD models currently face, and how F1 has applied CFDs to testing.
+
+              <a href="https://medium.com/@darienjy5056/will-cfd-technology-shape-the-next-era-of-f1-aerodynamics-6b39b9a3820b">Check out the article here!</a>
             </p>
           </article>
           <article class="project">
-            <img src="project2-thumbnail.jpg" alt="Solar-Powered RC Boat">
-            <h3>Solar-Powered RC Boat</h3>
+            <h3>2009 Williams FW31 Front Wing Design</h3>
             <p>
-              A small-scale prototype of an RC boat powered by solar energy, 
-              designed to explore sustainable transportation solutions in marine engineering.
+              Modeled and ran fluid dynamics testing on a replica of the 2009 Williams FW31 front wing. Built and tested in Solidworks CAD & CFD
+
+              <a href="https://medium.com/@darienjy5056/understanding-formula-1-aerodynamics-through-cfd-2009-williams-fw31-front-wing-design-cd9b8e6a5ec5">Check out the article here!</a>
+              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_back-in-kindergarten-my-handouts-were-always-activity-7287835376335962112-Vjbb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEmetnsB3683oIdPg618ybmQZv44WXFQtEI">Check out the video here!</a>
             </p>
           </article>
           <article class="project">
-            <img src="project3-thumbnail.jpg" alt="Soil Moisture Sensor">
-            <h3>Soil Moisture Sensor with Arduino</h3>
+            <h3>Home-made Lid-driven-cavity CFD Simulation</h3>
+            <p>
+              Coded, from scratch, a simple CFD capable of calculating and solving the lid-driven-cavity fluid dynamics problem, using Chorin Projection Method and Navier-Stokes.
+
+              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_made-this-little-project-a-few-weeks-ago-activity-7299308299412287488-MMOm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEmetnsB3683oIdPg618ybmQZv44WXFQtEI">My LinkedIn post about it</a>
+              <a href="https://github.com/darienjy5056/lid_driven_cavity/blob/main/CFD">GitHub Code</a>
+            </p>
+          </article>
+          <article class="project">
+            <h3>Soil Moisture Sensor with Arduino (ONGOING)</h3>
             <p>
               A smart irrigation system using an Arduino-based soil moisture sensor 
               to optimize water usage and improve agricultural efficiency.
+
+              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_step-1-soil-moisture-sensor-using-arduino-activity-7300770067166679040-R2TL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEmetnsB3683oIdPg618ybmQZv44WXFQtEI">Update 1</a>
             </p>
           </article>
           <article class="project">
-            <img src="project4-thumbnail.jpg" alt="Wharton Investment Competition">
-            <h3>Wharton Investment Competition</h3>
+            <h3>F1 Telemetry Simulator (ONGOING)</h3>
             <p>
-              Developed a unique trading philosophy called the 'Ouroboros Strategy,' 
-              focusing on investing in integrated ecosystems for long-term financial growth.
+              A machine learning program that aims to predict F1 races through analysis of past F1 telemetry data, serves as a F1
+              telemetry viewer as well. 
+
+              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_i-wanna-predict-who-will-win-f1-races-sounds-activity-7310803807939018753-TEWr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEmetnsB3683oIdPg618ybmQZv44WXFQtEI">Check out my first prototype!</a>
+            </p>
+          </article>
+          <article class="project">
+            <h3>Solar-Powered RC Boat</h3>
+            <p>
+              A small-scale prototype of an RC boat powered by solar energy, 
+              designed for the 2025 Physics Olympics prebuild challenge.
+            </p>
+          </article>
+          <article class="project">
+            <h3>"Sven" IKEA Conversational AI Assistant</h3>
+            <p>
+              Working alongside IKEA, my group created "Sven", a conversational AI assistant that provided a human-like customer support
+              experience to IKEA customers, with the aim of reducing labour costs for the IKEA support team.
+
+              <a href="IKEA Slidedeck Final_compressed.pdf">Check out our slide deck!</a>
             </p>
           </article>
         </div>
@@ -111,13 +166,14 @@
       <div class="container">
         <h2>Endorsements</h2>
         <p>
-          I’ve had the opportunity to work on projects that bring together 
-          engineering, finance, and innovation:
+          I'm incredibly grateful to have had the opportunity to work with many companies, clubs, and programs!
         </p>
         <div class="endorsements">
           <img src="company-logo1.png" alt="TKS (The Knowledge Society)">
-          <img src="company-logo2.png" alt="Wharton Investment Competition">
-          <img src="company-logo3.png" alt="Wesbrook Gavel Club (Toastmasters)">
+          <img src="company-logo2.png" alt="IKEA">
+          <img src="company-logo3.png" alt="University of British Columbia">
+          <img src="company-logo4.png" alt="Microsoft">
+          <img src="company-logo5.png" alt="Toastmasters">
         </div>
       </div>
     </section>
