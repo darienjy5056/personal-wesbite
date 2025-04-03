@@ -270,4 +270,100 @@ footer {
   }
   
   
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    /* Stack nav on top and hide sidebar styling */
+    body {
+      flex-direction: column;
+    }
+  
+    nav {
+      width: 100%;
+      height: auto;
+      position: relative;
+      flex-direction: row;
+      align-items: center;
+      padding: 1rem;
+      border-bottom: 2px solid #000;
+      gap: 1rem;
+      font-size: 0.85rem;
+    }
+  
+    .nav-title {
+      font-size: 1.25rem;
+      margin-bottom: 0;
+      margin-right: auto;
+    }
+  
+    .nav-links {
+      flex-direction: row;
+      flex-wrap: wrap;
+      display: flex;
+      gap: 1rem;
+    }
+  
+    .nav-links li {
+      margin: 0;
+    }
+  
+    main {
+      margin-left: 0;
+      padding: 1.5rem 1rem;
+    }
+  
+    .hero-top {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .hero-top img {
+      width: 100%;
+      max-width: 200px;
+    }
+  
+    #about .container,
+    .projects-grid {
+      flex-direction: column;
+    }
+  
+    .projects-grid {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .project {
+      width: 100%;
+    }
+  
+    .endorsements {
+      justify-content: center;
+    }
+  
+    .endorsements img {
+      max-width: 80px;
+    }
+  
+    #interests ul {
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+  
+    #interests li {
+      padding: 0.5rem;
+      font-size: 0.85rem;
+    }
+  
+    .hero-text p {
+      line-height: 1.6;
+      font-size: 0.9rem;
+    }
+  
+    .hero-text h1 {
+      font-size: 1.5rem;
+    }
+  
+    #about h2, #projects h2, #interests h2, #endorsements h2, #contact h2 {
+      font-size: 1.25rem;
+    }
+  }
   
