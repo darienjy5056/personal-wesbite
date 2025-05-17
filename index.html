@@ -1,197 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Darien Yang - Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-  <style>
-    main {
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-    nav {
-      font-size: 0.85rem;
-    }
-    .nav-links a {
-      padding: 0.75rem;
-    }
-    #about img {
-      width: 250px;
-      height: auto;
-      border: 2px solid #000;
-      border-radius: 4px;
-      object-fit: cover;
-    }
-  </style>
-</head>
-<body>
-  <nav>
-    <div class="nav-title">Darien Yang</div>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#interests">Interests</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#endorsements">Endorsements</a></li>
-    </ul>
-  </nav>
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Darien Yang</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="nav-sidebar">
+      <div class="wordmark-container">
+        <img src="wordmark.png" alt="Darien Yang Wordmark" class="wordmark" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#endorsements">Endorsements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-  <main>
-    <!-- About Section with Hero Layout -->
-    <section id="about">
-      <div class="container about-hero">
-        <div class="hero-top">
-          <img src="IMG_0741.jpeg" alt="Darien Yang">
-          <div class="hero-text">
-            <h1>Darien Yang</h1>
+    <main>
+      <section id="about" class="section">
+        <div class="hero">
+          <img src="IMG_0741.jpeg" alt="Darien Yang" class="profile-pic" />
+          <div>
+            <h2>About Me</h2>
             <p>
-              16/yo<br>
-              Vancouver, Canada<br>
-              TKS & UTP Student<br>
-              Motorsport Engineering<br>
-              Aerodynamics<br>
-              Robotics
-            </p>            
+              Hi! I'm Darien, a student at UBC's University Transition Program and The Knowledge Society.
+              I focus on motorsport engineering, particularly aerodynamics and CFD. I've run independent projects
+              on fluid dynamics testing, co-founded the GritLabs debate program, and serve as VP Membership at
+              my local Gavel Club. Outside of all that, I love trivia and history.
+            </p>
           </div>
         </div>
-        <div class="text">
-          <h2>About Me</h2>
-          <p>
-            Hi! I'm Darien, welcome to my personal website!<br><br>
+      </section>
 
-            I attend UBC's University Transition Program, a specialized program condensing high school into just 2 years, and TKS, a prestigious program with a 10–15% acceptance rate, where my focus is on motorsport engineering—specifically aerodynamics and CFD technology. I conduct projects around researching the application of CFDs in F1 and have built models for fluid dynamics testing.<br><br>
-
-            I co-founded the GritLabs public speaking and debate program, and I'm a longtime member of my local Gavel Club, where I serve as Vice President of Membership.<br><br>
-
-            Outside of all of that, I love trivia and history.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Interests Section -->
-    <section id="interests">
-      <div class="container">
-        <h2>Interests &amp; Hobbies</h2>
+      <section id="interests" class="section">
+        <h2>Interests & Hobbies</h2>
         <p>
-          I love motorsports, automotive engineering. I've been watching Formula 1 since I was a kid (Mercedes fan), I also love WRC (Rovanpera is my goat). I find that almost everything I do all comes back
-          to engineering. 
+          I’ve always been drawn to engineering through motorsport. I love watching Formula 1 (go Mercedes!) and WRC.
+          These interests influence almost everything I work on.
         </p>
-        <ul>
-          <li>Formula 1 &amp; Motorsport Engineering</li>
-          <li>Automotive Technology &amp; Hypercars</li>
+        <ul class="tag-list">
+          <li>F1 & Motorsport Engineering</li>
+          <li>Automotive Technology</li>
           <li>Aerodynamics</li>
-          <li>Computational Fluid Dynamics</li>
+          <li>CFD</li>
           <li>Robotics</li>
         </ul>
-      </div>
-    </section>
+      </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-      <div class="container">
+      <section id="projects" class="section">
         <h2>Projects</h2>
-        <div class="projects-grid">
-          <article class="project">
-            <h3>"Will CFD Technology Shape the Next Era of F1 Aerodynamics?"</h3>
+        <div class="post-list">
+          <article>
+            <h3>CFD in F1 Aerodynamics</h3>
             <p>
-              An article exploring how computational fluid dynamics (CFD) 
-              is shaping the future of Formula 1 aerodynamics, 
-              with a focus on comparing modern CFD models with wind tunnel testing. Discusses the 
-              challenges CFD models currently face, and how F1 has applied CFDs to testing.
-
-              <a href="https://medium.com/@darienjy5056/will-cfd-technology-shape-the-next-era-of-f1-aerodynamics-6b39b9a3820b">Check out the article here!</a>
+              An article exploring how CFD is reshaping modern F1 design approaches, including the pros and cons of
+              simulation vs. wind tunnel testing.
+              <a href="https://medium.com/@darienjy5056/will-cfd-technology-shape-the-next-era-of-f1-aerodynamics-6b39b9a3820b">Read more</a>
             </p>
           </article>
-          <article class="project">
-            <h3>2009 Williams FW31 Front Wing Design</h3>
+          <article>
+            <h3>Williams FW31 Front Wing Design</h3>
             <p>
-              Modeled and ran fluid dynamics testing on a replica of the 2009 Williams FW31 front wing. Built and tested in Solidworks CAD & CFD
-
-              <a href="https://medium.com/@darienjy5056/understanding-formula-1-aerodynamics-through-cfd-2009-williams-fw31-front-wing-design-cd9b8e6a5ec5">Check out the article here!</a>
-              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_back-in-kindergarten-my-handouts-were-always-activity-7287835376335962112-Vjbb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEmetnsB3683oIdPg618ybmQZv44WXFQtEI">Check out the video here!</a>
+              Modeled and simulated the 2009 Williams FW31 front wing in Solidworks. 
+              <a href="https://medium.com/@darienjy5056/understanding-formula-1-aerodynamics-through-cfd-2009-williams-fw31-front-wing-design-cd9b8e6a5ec5">Article</a>
+              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_back-in-kindergarten-my-handouts-were-always-activity-7287835376335962112-Vjbb">Video</a>
             </p>
           </article>
-          <article class="project">
-            <h3>Home-made Lid-driven-cavity CFD Simulation</h3>
+          <article>
+            <h3>Lid-driven Cavity CFD</h3>
             <p>
-              Coded, from scratch, a simple CFD capable of calculating and solving the lid-driven-cavity fluid dynamics problem, using Chorin Projection Method and Navier-Stokes.
-
-              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_made-this-little-project-a-few-weeks-ago-activity-7299308299412287488-MMOm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEmetnsB3683oIdPg618ybmQZv44WXFQtEI">My LinkedIn post about it</a>
-              <a href="https://github.com/darienjy5056/lid_driven_cavity/blob/main/CFD">GitHub Code</a>
+              Built a CFD simulator in Python using Chorin Projection and Navier-Stokes equations.
+              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_made-this-little-project-a-few-weeks-ago-activity-7299308299412287488-MMOm">LinkedIn</a>
+              <a href="https://github.com/darienjy5056/lid_driven_cavity/blob/main/CFD">GitHub</a>
             </p>
           </article>
-          <article class="project">
-            <h3>Soil Moisture Sensor with Arduino (ONGOING)</h3>
+          <article>
+            <h3>Soil Moisture Sensor</h3>
             <p>
-              A smart irrigation system using an Arduino-based soil moisture sensor 
-              to optimize water usage and improve agricultural efficiency.
-
-              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_step-1-soil-moisture-sensor-using-arduino-activity-7300770067166679040-R2TL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEmetnsB3683oIdPg618ybmQZv44WXFQtEI">Update 1</a>
+              An Arduino irrigation controller based on live soil moisture readings.
+              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_step-1-soil-moisture-sensor-using-arduino-activity-7300770067166679040-R2TL">Update</a>
             </p>
           </article>
-          <article class="project">
-            <h3>F1 Telemetry Simulator (ONGOING)</h3>
+          <article>
+            <h3>F1 Telemetry Simulator</h3>
             <p>
-              A machine learning program that aims to predict F1 races through analysis of past F1 telemetry data, serves as a F1
-              telemetry viewer as well. 
-
-              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_i-wanna-predict-who-will-win-f1-races-sounds-activity-7310803807939018753-TEWr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEmetnsB3683oIdPg618ybmQZv44WXFQtEI">Check out my first prototype!</a>
+              A Python-based tool using ML to analyze and simulate race telemetry.
+              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_i-wanna-predict-who-will-win-f1-races-sounds-activity-7310803807939018753-TEWr">Prototype</a>
             </p>
           </article>
-          <article class="project">
+          <article>
             <h3>Solar-Powered RC Boat</h3>
+            <p>A mini solar RC boat designed for the 2025 Physics Olympics.</p>
+          </article>
+          <article>
+            <h3>IKEA Conversational AI</h3>
             <p>
-              A small-scale prototype of an RC boat powered by solar energy, 
-              designed for the 2025 Physics Olympics prebuild challenge.
+              Designed "Sven," an AI chatbot that handles IKEA support tasks.
+              <a href="IKEA Slidedeck Final_compressed.pdf">Slide Deck</a>
             </p>
           </article>
-          <article class="project">
-            <h3>"Sven" IKEA Conversational AI Assistant</h3>
+          <article>
+            <h3>Hotspot-Aware Cooling for Microsoft Data Centres</h3>
             <p>
-              Working alongside IKEA, my group created "Sven", a conversational AI assistant that provided a human-like customer support
-              experience to IKEA customers, with the aim of reducing labour costs for the IKEA support team.
-
-              <a href="IKEA Slidedeck Final_compressed.pdf">Check out our slide deck!</a>
+              Researched and pitched hotspot-aware coldplates and D2C cooling to Microsoft, semi-finalist.
+              <a href="Microsoft+-+Global+Challenge-compressed.pdf">Slideshow</a>
+            </p>
+          </article>
+          <article>
+            <h3>Maize Automated Drone</h3>
+            <p>
+              Developing an AI and remote-sending powered agricultural drone system to monitor crop health and optimize farm management.
             </p>
           </article>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Endorsements Section -->
-    <section id="endorsements">
-      <div class="container">
+      <section id="endorsements" class="section">
         <h2>Endorsements</h2>
         <p>
-          I'm incredibly grateful to have had the opportunity to work with many companies, clubs, and programs!
+          I’ve had the chance to work with some amazing organizations.
         </p>
-        <div class="endorsements">
-          <img src="company-logo1.png" alt="TKS (The Knowledge Society)">
-          <img src="company-logo2.png" alt="IKEA">
-          <img src="company-logo3.png" alt="University of British Columbia">
-          <img src="company-logo4.png" alt="Microsoft">
-          <img src="company-logo5.png" alt="Toastmasters">
+        <div class="endorsement-logos">
+          <img src="company-logo1.png" alt="TKS" />
+          <img src="company-logo2.png" alt="IKEA" />
+          <img src="company-logo3.png" alt="UBC" />
+          <img src="company-logo4.png" alt="Microsoft" />
+          <img src="company-logo5.png" alt="Toastmasters" />
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Contact Section at Bottom of Main Content -->
-    <section id="contact">
-      <div class="container">
+      <section id="contact" class="section">
         <h2>Contact</h2>
-        <p>Email: 
-          <a href="mailto:darienjy5056@gmail.com">darienjy5056@gmail.com</a>
-        </p>
-        <p>
-          <a href="https://www.linkedin.com/in/darien-yang-04b78b2a5/" target="_blank">
-            LinkedIn
-          </a>
-        </p>
-      </div>
-    </section>
-  </main>
-</body>
+        <p>Email: <a href="mailto:darienjy5056@gmail.com">darienjy5056@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/darien-yang-04b78b2a5/">Here</a></p>
+        <p>Blog: <a href="https://yangculture.substack.com" target="_blank">yangculture.substack.com</a></p>
+      </section>
+    </main>
+  </body>
 </html>
