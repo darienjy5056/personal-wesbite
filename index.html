@@ -1,150 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Darien Yang</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <nav class="nav-sidebar">
-      <div class="wordmark-container">
-        <img src="wordmark.png" alt="Darien Yang Wordmark" class="wordmark" />
-      </div>
-      <ul class="nav-links">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#interests">Interests</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#endorsements">Endorsements</a></li>
-        <li><a href="https://yangculture.substack.com" target="_blank">Monthly Updates</a></li>
-      </ul>
-    </nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Darien Yang</title>
+  <meta name="description" content="Darien Yang builds crop-scanning drones at Maize and race car aero at Formula UBC.">
+  <meta property="og:title" content="Darien Yang">
+  <meta property="og:description" content="Darien Yang builds crop-scanning drones at Maize and race car aero at Formula UBC.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://darienyang.com">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="me">
+    <div>Darien Yang</div>
+    <ul>
+      <li><a href="index.html">about</a></li>
+      <li><a href="projects.html">projects</a></li>
+      <li><a href="maize.html">maize</a></li>
+      <li><a href="into.html">interests</a></li>
+      <li><a href="media.html">media</a></li>
+    </ul>
+    <ul class="out">
+      <li><a href="mailto:darienjy5056@gmail.com">Email</a></li>
+      <li><a href="https://yangculture.substack.com">Substack (inactive)</a></li>
+      <li><a href="https://github.com/darienjy5056">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/darien-yang-04b78b2a5">LinkedIn</a></li>
+    </ul>
+  </aside>
 
-    <main>
-      <section id="about" class="section">
-        <div class="hero">
-          <img src="IMG_0741.jpeg" alt="Darien Yang" class="profile-pic" />
-          <div>
-            <h2>About Me</h2>
-            <p>
-              I'm Darien, currently a first year at UBC's applied science program
-              and an alum of UBC's University Transition Program (TKS) and The Knowledge Society (TKS).
-              I focus on motorsport engineering, particularly aerodynamics and CFD.
-              Outside of all that, I love trivia and history. You can check out some of my projects below!
-            </p>
-          </div>
-        </div>
-      </section>
+  <main>
+    <p>18 yo 2nd year UBC engineering student in Vancouver, agritech & motorsports guy.</p>
 
-      <section id="interests" class="section">
-        <h2>Interests & Hobbies</h2>
-        <p>
-          I’ve always been drawn to engineering through motorsport. I love watching Formula 1 (go Mercedes!) and WRC.
-          These interests influence almost everything I work on.
-        </p>
-        <ul class="tag-list">
-          <li>F1 & Motorsport Engineering</li>
-          <li>Automotive Technology</li>
-          <li>Aerodynamics</li>
-          <li>CFD</li>
-          <li>Robotics</li>
-        </ul>
-      </section>
+    <p><b>Main things im doing</b></p>
+    <p>I co-founded <a href="https://maizedrones.com">Maize</a> with Om and Yousef. A big problem we're seeing in agriculture is the lack of affordable crop-scanning technology. Big tech builds 
+      expensive drones that 80 percent of farmers cant afford, I think it's bullshit.
+      So we're building a self-flying drone that scans a field in an afternoon and tells farmers what needs attention. currently ag drones cost tens of thousands or more so we're aiming for a fraction of that.</p>
+    <p>Also an aerodynamics member at Formula UBC, this year I'm leading side tunnel aero design for Formula UBC's 2027 car.</p>
 
-      <section id="projects" class="section">
-        <h2>Projects</h2>
-        <div class="post-list">
-          <article>
-            <h3>CFD in F1 Aerodynamics</h3>
-            <p>
-              An article exploring how CFD is reshaping modern F1 design approaches, including the pros and cons of
-              simulation vs. wind tunnel testing.
-              <a href="https://medium.com/@darienjy5056/will-cfd-technology-shape-the-next-era-of-f1-aerodynamics-6b39b9a3820b">Read more</a>
-            </p>
-          </article>
-          <article>
-            <h3>Williams FW31 Front Wing Design</h3>
-            <p>
-              Modeled and simulated the 2009 Williams FW31 front wing in Solidworks. 
-              <a href="https://medium.com/@darienjy5056/understanding-formula-1-aerodynamics-through-cfd-2009-williams-fw31-front-wing-design-cd9b8e6a5ec5">Article,</a>
-              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_back-in-kindergarten-my-handouts-were-always-activity-7287835376335962112-Vjbb">Video</a>
-            </p>
-          </article>
-          <article>
-            <h3>Lid-driven Cavity CFD</h3>
-            <p>
-              Built a CFD simulator in Python using Chorin Projection and Navier-Stokes equations.
-              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_made-this-little-project-a-few-weeks-ago-activity-7299308299412287488-MMOm">LinkedIn</a>
-              <a href="https://github.com/darienjy5056/lid_driven_cavity/blob/main/CFD">GitHub</a>
-            </p>
-          </article>
-          <article>
-            <h3>Soil Moisture Sensor</h3>
-            <p>
-              An Arduino irrigation controller based on live soil moisture readings.
-              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_step-1-soil-moisture-sensor-using-arduino-activity-7300770067166679040-R2TL">Update</a>
-            </p>
-          </article>
-          <article>
-            <h3>F1 Telemetry Simulator</h3>
-            <p>
-              A Python-based tool to analyze race telemetry and rate driver + car performance.
-              <a href="https://www.linkedin.com/posts/darien-yang-04b78b2a5_i-wanna-predict-who-will-win-f1-races-sounds-activity-7310803807939018753-TEWr">Prototype</a>
-              <a href="https://github.com/darienjy5056/aiF-DA">GitHub</a>
-            </p>
-          </article>
-          <article>
-            <h3>Solar-Powered RC Boat</h3>
-            <p>A mini solar RC boat designed for the 2025 Physics Olympics.</p>
-          </article>
-          <article>
-            <h3>IKEA Conversational AI</h3>
-            <p>
-              Designed "Sven," an AI chatbot that handles IKEA support tasks.
-              <a href="IKEA Slidedeck Final_compressed.pdf">Slide Deck</a>
-            </p>
-          </article>
-          <article>
-            <h3>Hotspot-Aware Cooling for Microsoft Data Centres</h3>
-            <p>
-              Researched and pitched hotspot-aware coldplates and D2C cooling to Microsoft, semi-finalist.
-              <a href="Microsoft+-+Global+Challenge-compressed.pdf">Slide Deck</a>
-            </p>
-          </article>
-          <article>
-            <h3>Maize Automated Drone</h3>
-            <p>
-              Developing an AI and remote-sending powered agricultural drone system to monitor crop health and optimize farm management.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="endorsements" class="section">
-        <h2>Endorsements</h2>
-        <p>
-          I’ve had the chance to work with some amazing organizations.
-        </p>
-        <div class="endorsement-logos">
-          <img src="company-logo1.png" alt="TKS" />
-          <img src="company-logo2.png" alt="IKEA" />
-          <img src="company-logo3.png" alt="UBC" />
-          <img src="company-logo4.png" alt="Microsoft" />
-          <img src="company-logo5.png" alt="Toastmasters" />
-          <img src="company-logo6.png" alt="Nexener Technologies" />
-        </div>
-      </section>
-
-      <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:darienjy5056@gmail.com">darienjy5056@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/darien-yang-04b78b2a5/">Here</a></p>
-        <p>Blog: <a href="https://yangculture.substack.com" target="_blank">yangculture.substack.com</a></p>
-      </section>
-    </main>
-  </body>
+    <p><b>You should check out</b></p>
+    <ul>
+      <li><a href="maize.html">Maize manifesto</a> if you want to understand why im building this</li>
+      <li>My <a href="projects.html">projects</a> (if you want to see what I've been working on)</li>
+      <li><a href="media.html">Media</a> I like</li>
+    </ul>
+  </main>
+</body>
 </html>

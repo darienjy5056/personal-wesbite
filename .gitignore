@@ -1,0 +1,16 @@
+# Only the live site goes to GitHub. Everything below stays on this laptop.
+# The repo is public, and GitHub Pages serves darienyang.com from it.
+
+# Private notes, specs and checks (they mention YC, NDA rules and drafts)
+CLAUDE.md
+docs/
+tools/
+
+# Hidden pages and the old site
+drafts/
+archive/
+
+# Local tooling
+.superpowers/
+.claude/
+__pycache__/
